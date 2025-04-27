@@ -1,5 +1,6 @@
 package com.example.danhpaiva;
 
+<<<<<<< HEAD
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertThrows;
@@ -102,5 +103,15 @@ public class SistemaEstoqueTest {
     sistemaEstoque.adicionarProduto("Garrafa", 1);
     assertFalse(sistemaEstoque.verificarDisponibilidade("Garrafa", 2));
     assertEquals(1, sistemaEstoque.obterHistoricoTransacoes().size());
+=======
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
+public class SistemaEstoqueTest {
+  @Test
+  public void shouldAnswerWithTrue() {
+    assertTrue(true);
+>>>>>>> 5605f556f591c1e8452f4d18e47fa326e45c74c6
   }
 }
